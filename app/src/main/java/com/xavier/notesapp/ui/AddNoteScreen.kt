@@ -23,7 +23,6 @@ fun AddNoteScreen(navController: NavController, noteViewModel: NoteViewModel) {
                 .padding(16.dp)
                 .fillMaxSize()
         ) {
-            // 调整输入框大小
             TextField(
                 value = noteContent,
                 onValueChange = { noteContent = it },
